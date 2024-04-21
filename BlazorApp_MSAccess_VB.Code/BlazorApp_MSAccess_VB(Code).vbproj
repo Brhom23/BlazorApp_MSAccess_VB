@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>BlazorApp_MSAccess_VB.Code</RootNamespace>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\BlazorApp_MSAccess_VB.Model\BlazorApp_MSAccess_VB.Models.vbproj" />
+  </ItemGroup>
+</Project>

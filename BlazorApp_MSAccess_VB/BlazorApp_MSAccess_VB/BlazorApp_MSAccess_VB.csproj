@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-BlazorApp_MSAccess_VB-ff3f481d-1f3b-4722-974f-66ea4becf859</UserSecretsId>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+   
+    <ProjectReference Include="..\..\BlazorApp_MSAccess_VB.Model\BlazorApp_MSAccess_VB.Models.vbproj" />
+    <ProjectReference Include="..\..\BlazorApp_MSAccess_VB.Share\BlazorApp_MSAccess_VB.Share.vbproj" />
+    <ProjectReference Include="..\BlazorApp_MSAccess_VB.Client\BlazorApp_MSAccess_VB.Client.csproj" />
+    <ProjectReference Include="..\..\BlazorApp_MSAccess_VB.Code\BlazorApp_MSAccess_VB(Code).vbproj" />
+    
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="8.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.1" />
+    <PackageReference Include="EntityFrameworkCore.Jet" Version="8.0.0-alpha.2" />
+    <PackageReference Include="EntityFrameworkCore.Jet.Data" Version="8.0.0-alpha.2" />
+    <PackageReference Include="EntityFrameworkCore.Jet.OleDb" Version="8.0.0-alpha.2" />
+
+
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Data\" />
+  </ItemGroup>
+
+
+
+</Project>
